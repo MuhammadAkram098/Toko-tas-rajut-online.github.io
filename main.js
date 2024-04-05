@@ -22,8 +22,8 @@ document.querySelectorAll('.btnDetail').forEach(item => {
             document.querySelector('.modalHarga').innerHTML=harga;
 
 
-            const nohp = '+62 897-4476-666';
-            let pesan = 'https://api.whatsapp.com/send?phone= {+62 897-4476-666} &text=Hallo bang, saya mau pesan produk ini (${gambar})';
+            const nohp = '628974476666';
+            let pesan = 'https://api.whatsapp.com/send?phone=${nohp}&text=assalamualaikum bu, saya mau pesan produk ini ${gambar}';
 
             document.querySelector('.btnBeli').href = pesan;
         });
