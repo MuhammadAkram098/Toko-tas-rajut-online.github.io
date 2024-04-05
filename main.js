@@ -18,8 +18,8 @@ document.querySelectorAll('.btnDetail').forEach(item => {
             image.classList.add('w-100')
             document.querySelector('.modalImage').innerHTML = '';
             document.querySelector('.modalImage').appendChild(image);
-            document.querySelector('.modalDeskripsi').innerHTML=deskripsi;
-            document.querySelector('.modalHarga').innerHTML=harga;
+            document.querySelector('.modalDeskripsi').innerHTML = deskripsi;
+            document.querySelector('.modalHarga').innerHTML = harga;
 
 
             const nohp = '628974476666';
