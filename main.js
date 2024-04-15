@@ -23,7 +23,7 @@ document.querySelectorAll('.btnDetail').forEach(item => {
 
 
             const nohp = '628974476666';
-            let pesan = 'https://api.whatsapp.com/send?phone=${nohp}&text=assalamualaikum bu, saya mau pesan produk ini ${gambar}';
+            let pesan = "https://api.whatsapp.com/send?phone=628974476666 &text=Halo bu, saya ingin pesan produk anda ... apakah masih ada?";
 
             document.querySelector('.btnBeli').href = pesan;
         });
